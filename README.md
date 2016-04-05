@@ -1,1 +1,1 @@
-# nn_discourse_parser
+# Neural Discourse Parser (CoNLL 2016 Shared Task)Neural architecture for implicit discourse relations
