@@ -1,12 +1,12 @@
-from tpl.language.lexical_structure import WordEmbeddingDict
+from lexical_structure import WordEmbeddingDict
 
 from theano import config
 import numpy as np
 
 class EmbeddingFeaturizer(object):
 
-	TEST_WORD_EMBEDDING_FILE = '../lib/lexicon/google_word_vector/GoogleNews-vectors-negative300_test.txt'
-	WORD_EMBEDDING_FILE = '../lib/lexicon/google_word_vector/GoogleNews-vectors-negative300.txt'
+	TEST_WORD_EMBEDDING_FILE = 'google_word_vector/GoogleNews-vectors-negative300_test.txt'
+    WORD_EMBEDDING_FILE = 'google_word_vector/GoogleNews-vectors-negative300.txt'
 	OOV_VALUE = 0
 
 	def __init__(self, word_embedding_file=WORD_EMBEDDING_FILE):
